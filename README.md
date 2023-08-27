@@ -1,5 +1,5 @@
 <pre>
-               <b>In this repository i have added some of my CSS "Box Sizing", "Margin Collaps", "Margin" and "Padding" knowledge like this-</b>          
+<b>In this repository i have added some of my CSS "Box Sizing", "Margin Collaps", "Margin" and "Padding" knowledge like this-</b>          
 
 &#10148; Margin property:
          Example-
