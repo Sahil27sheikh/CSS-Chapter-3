@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box sizing</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .red1 {
+            background-color: red;
+            margin: 30px;
+            height: 340px;
+            width: 234px;
+            border: 5px solid black;
+
+        }
+
+        .red2 {
+            background-color: blue;
+            height: 80px;
+            width: 100%;
+            /* margin: 20px;  margin is not count on box sizing*/
+            padding: 2px;
+            border: 5px solid green;
+            box-sizing: content-box;  /* there are two type of box sizing content-box and border-box. content box adjust size of the content in box under the box and the border-box adjust the border of the box under the main box */
+            /* if you can use bax-content the child box is overflow form the parent box and the you can use box-border the child box can't overflow form the parent box */
+        }
+    </style>
+</head>
+
+<body>
+    <div class="red1">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet rem ipsa velit minima sequi, culpa placeat
+        aliquid delectus rerum distinctio optio officiis asperiores tempora iure assumenda illo saepe consequuntur
+        quidem, quod ipsum recusandae harum perferendis! Sapiente dolore asperiores nesciunt optio.
+        <div class="red2">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore odio, unde facilis eveniet voluptas recusandae
+        </div>
+    </div>
+   
+</body>
+
+</html>

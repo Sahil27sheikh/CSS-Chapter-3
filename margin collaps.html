@@ -1,0 +1,53 @@
+<!-- Margin collaps is the most important in css it is mostly use in css -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>margin collaps</title>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    .red1 {
+         background-color: red;
+         margin: 30px;
+         height: 40px;
+    }
+    .red2 {
+         background-color: blue;
+         margin: 30px;
+         height: 40px;
+    }
+    /* in this condition two boxex margin is collaps and the total margin is not a 60px surprisly it is only a 30px becouse those box are demand the margin of 30px and this way the those boxes contain 30px margin */
+
+    /* 
+    .red1{
+        background-color: red;
+         margin: 30px;
+         height: 40px;
+    }
+
+    .red2 {
+         background-color: blue;
+         margin: 20px;
+         height: 40px;
+    }
+
+    in this condition the red1 demand the margin of 30px and red2 demand the margin of 20px and the total margin is not the 50px it is only 30px becouse css is read only large value in this condition and becouse of this the red1 contain 30px and the red2 contain 20px and the total margin is 30px */
+</style>
+
+<body>
+    <div class="red1">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet rem ipsa velit minima sequi, culpa placeat aliquid delectus rerum distinctio optio officiis asperiores tempora iure assumenda illo saepe consequuntur quidem, quod ipsum recusandae harum perferendis! Sapiente dolore asperiores nesciunt optio.
+    </div>
+    <div class="red2">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore odio, unde facilis eveniet voluptas recusandae ex? Sint, accusamus? Commodi suscipit, in hic, asperiores architecto natus facere, culpa magnam sequi aut necessitatibus laudantium eos! Dolore voluptatem recusandae animi tenetur nemo voluptate doloremque esse blanditiis voluptatibus ipsam.
+    </div>
+</body>
+
+</html>
