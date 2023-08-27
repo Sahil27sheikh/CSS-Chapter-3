@@ -13,8 +13,7 @@
          margin: 2px 5px 3px 5px;
          margin: 2px 5px 3px;
          margin: 2px 5px;
-&#10148; Full detail practice about <b>"Margin Collaps"</b><hr>
-
+&#10148; Full detail practice about <b>"Margin Collaps"</b><hr> 
 &#10148; Padding property:
          Example-
          padding: 2px
@@ -26,8 +25,7 @@
          Example-
          padding: 2px 5px 3px 5px;
          padding: 2px 5px 5px;
-         padding: 2px 5px; <hr>
-
+         padding: 2px 5px; <hr> 
 &#10148; Border property in CSS:
          Example-
          border-color: red;
@@ -44,12 +42,10 @@
          And so on...
 &#10148; Border style shorthand property:
         Example-
-         border-style: dashed groove none dotted; <hr>
-
+         border-style: dashed groove none dotted; <hr> 
 &#10148; Box sizing property in CSS:
          Example-
          box-sizing: border-box;
-         box-sizing: content-box; <hr>
-
+         box-sizing: content-box; <hr> 
 &#10148; In this repositori i have add one file of 3 practice sets about <b>"Box sizing property, Margin collaps property</b> and so on...
 </pre> 
