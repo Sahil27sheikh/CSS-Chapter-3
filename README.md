@@ -3,7 +3,7 @@
 
 &#10148; Margin property:
          Example-
-         margin: 2px
+         margin: 2px;
          margin-top: 2px;
          margin-bottom: 2px;
          margin-left: 2px;
