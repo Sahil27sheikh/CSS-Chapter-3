@@ -16,7 +16,7 @@
 &#10148; Full detail practice about <b>"Margin Collaps"</b><hr> 
 &#10148; Padding property:
          Example-
-         padding: 2px
+         padding: 2px;
          padding-top: 2px;
          padding-bottom: 2px;
          padding-left: 2px;
